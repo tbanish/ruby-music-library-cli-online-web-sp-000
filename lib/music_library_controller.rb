@@ -74,7 +74,6 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     user_input = gets.chomp.to_i
     
-    
     song = Song.all[user_input]
     
     if Song.all[user_input] == true
