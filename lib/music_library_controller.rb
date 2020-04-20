@@ -26,7 +26,6 @@ class MusicLibraryController
   end
   
   def list_songs
-    binding.pry
     sorted = Song.all.sort_by {|s| s.name}
     sorted.each.with_index(1) do |song, index|
       puts "#{index}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
