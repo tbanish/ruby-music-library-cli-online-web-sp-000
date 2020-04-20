@@ -56,7 +56,6 @@ class MusicLibraryController
         puts "#{index}. #{song.name} - #{song.genre.name}"
       end
     end
-    
   end
   
   def list_songs_by_genre
@@ -69,6 +68,9 @@ class MusicLibraryController
         puts "#{index}. #{song.artist.name} - #{song.name}"
       end
     end
+  end
+  
+  def play_song
     
   end
   
