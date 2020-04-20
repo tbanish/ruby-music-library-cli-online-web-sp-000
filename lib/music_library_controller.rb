@@ -26,7 +26,7 @@ class MusicLibraryController
   end
   
   def list_songs
-    
+    Song.all.sort_by(&:name)
   end
   
   
