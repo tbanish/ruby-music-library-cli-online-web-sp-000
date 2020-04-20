@@ -75,6 +75,7 @@ class MusicLibraryController
     user_input = gets.chomp.to_i
     
     song = Song.all[user_input]
+    puts "Playing #{song.name} by #{song.artist.name}"
     
     
   end
