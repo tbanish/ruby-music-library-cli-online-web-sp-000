@@ -26,6 +26,8 @@ class MusicLibraryController
     
     if user_input = "list songs"
       list_songs
+    elsif user_input = "list artists"
+      list_artists
     end
   end
   
