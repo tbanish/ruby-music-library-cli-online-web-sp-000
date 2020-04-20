@@ -46,7 +46,13 @@ class MusicLibraryController
     end
   end
   
-  
+  def list_songs_by_artist
+    user_input = ""
+    if user_input = "list artist"
+      list_artists
+    
+    
+  end
   
   
   
