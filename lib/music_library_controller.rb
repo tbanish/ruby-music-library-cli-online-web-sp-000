@@ -22,7 +22,7 @@ class MusicLibraryController
       puts "What would you like to do?"
       
       user_input = gets.chomp
-    end
+
     
       case user_input
         when "list songs"
@@ -37,7 +37,7 @@ class MusicLibraryController
           list_songs_by_genre
         when "play song"
           play_song
-      end
+    end
     
   end
   
