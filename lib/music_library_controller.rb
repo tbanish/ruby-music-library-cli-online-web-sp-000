@@ -75,10 +75,7 @@ class MusicLibraryController
     user_input = gets.chomp.to_i
     
     song = Song.all[user_input]
-    
-    if Song.all[user_input] == true
-      puts "Playing #{song.name} by #{song.artist.name}"
-    end
+    puts "Playing #{song.name} by #{song.artist.name}" if song
     
     
   end
