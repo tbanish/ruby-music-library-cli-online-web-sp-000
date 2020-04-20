@@ -26,7 +26,8 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort_by {|a, b| a<=>b}
+    sorted_list = Song.all.sort_by {|a, b| a<=>b}
+    sorted_list.
   end
   
   
